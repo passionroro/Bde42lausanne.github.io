@@ -4,6 +4,40 @@
  * Copyright 2014-2021 Froala Labs
  */
 
+ .myButton {
+  color: rgb(255, 255, 255); 
+  font-size: 16px; line-height: 16px;
+  padding: 11px;
+  border-radius: 0px;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+  background-image: linear-gradient(to right, rgb(223, 17, 18) 0%, rgb(223, 17, 18) 100%); 
+  display: inline-block;
+}
+.myButton:hover {
+  background: #5e101091;
+}
+.myButton:active {
+  background: #DF1112;
+}
+
+.con-tainer {
+  height: 200px;
+  position: relative;
+  border: 3px solid green;
+}
+
+.connard{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
 .fr-clearfix::after {
   clear: both;
   display: block;
@@ -162,7 +196,7 @@
     top: 0.1%;
     width: 100px;
     height: 100px;
-    margin-top: -10px;
+    margin-top: -35px;
     margin-left: 400px;
     border-radius: 50%;
     content: url(https://github.com/Bde42lausanne/Bde42lausanne.github.io/blob/main/malakov.png?raw=true);
