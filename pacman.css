@@ -1,0 +1,153 @@
+@-webkit-keyframes up {
+	0%, 100% {
+		transform: rotate(0);
+	}
+
+	50% {
+		transform: rotate(-30deg);
+	}
+}
+
+@-moz-keyframes up {
+	0%, 100% {
+		transform: rotate(0);
+	}
+
+	50% {
+		transform: rotate(-30deg);
+	}
+}
+
+@-o-keyframes up {
+	0%, 100% {
+		transform: rotate(0);
+	}
+
+	50% {
+		transform: rotate(-30deg);
+	}
+}
+
+@keyframes up {
+	0%, 100% {
+		transform: rotate(0);
+	}
+
+	50% {
+		transform: rotate(-30deg);
+	}
+}
+
+@-webkit-keyframes down {
+	0%, 100% {
+		transform: rotate(0);
+	}
+
+	50% {
+		transform: rotate(30deg);
+	}
+}
+
+@-moz-keyframes down {
+	0%, 100% {
+		transform: rotate(0);
+	}
+
+	50% {
+		transform: rotate(30deg);
+	}
+}
+
+@-o-keyframes down {
+	0%, 100% {
+		transform: rotate(0);
+	}
+
+	50% {
+		transform: rotate(30deg);
+	}
+}
+
+@keyframes down {
+	0%, 100% {
+		transform: rotate(0);
+	}
+
+	50% {
+		transform: rotate(30deg);
+	}
+}
+
+@-webkit-keyframes r-to-l {
+	100% {
+		margin-left: -1px;
+	}
+}
+
+@-moz-keyframes r-to-l {
+	100% {
+		margin-left: -1px;
+	}
+}
+
+@-o-keyframes r-to-l {
+	100% {
+		margin-left: -1px;
+	}
+}
+
+@keyframes r-to-l {
+	100% {
+		margin-left: -1px;
+	}
+}
+
+body {
+	background: #000;
+	overflow: hidden;
+	margin: 0;
+}
+
+body .pacman:before, body .pacman:after {
+	content: '';
+	position: absolute;
+	background: #FFC107;
+	width: 200px;
+	height: 100px;
+	left: 50%;
+	top: 50%;
+	margin-left: -100px;
+	margin-top: -100px;
+	border-radius: 100px 100px 0 0;
+	-webkit-animation: up 1.3s infinite;
+	-moz-animation: up 1.3s infinite;
+	-o-animation: up 1.3s infinite;
+	animation: up 1.3s infinite;
+}
+
+body .pacman:after {
+	margin-top: -1px;
+	border-radius: 0 0 100px 100px;
+	-webkit-animation: down 1.3s infinite;
+	-moz-animation: down 1.3s infinite;
+	-o-animation: down 1.3s infinite;
+	animation: down 1.3s infinite;
+}
+
+body .dot {
+	position: absolute;
+	left: 50%;
+	top: 5%;
+	width: 100px;
+	height: 100px;
+	margin-top: -10px;
+	margin-left: 400px;
+	border-radius: 50%;
+	content: url(https://github.com/Bde42lausanne/Bde42lausanne.github.io/blob/main/malakov.png?raw=true);
+	z-index: -1;
+	box-shadow: 30px 0 0 url(https://github.com/Bde42lausanne/Bde42lausanne.github.io/blob/main/malakov.png?raw=true), 60px 0 0 url(https://github.com/Bde42lausanne/Bde42lausanne.github.io/blob/main/malakov.png?raw=true), 90px 0 0 url(https://github.com/Bde42lausanne/Bde42lausanne.github.io/blob/main/malakov.png?raw=true), 120px 0 0 url(https://github.com/Bde42lausanne/Bde42lausanne.github.io/blob/main/malakov.png?raw=true), 150px 0 0 url(https://github.com/Bde42lausanne/Bde42lausanne.github.io/blob/main/malakov.png?raw=true);
+	-webkit-animation: r-to-l 1.3s infinite;
+	-moz-animation: r-to-l 1.3s infinite;
+	-o-animation: r-to-l 1.3s infinite;
+	animation: r-to-l 1.3s infinite;
+}

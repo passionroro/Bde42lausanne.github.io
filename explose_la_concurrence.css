@@ -23,6 +23,10 @@
   display:none;
 }
 
+body {
+  cursor: url(https://github.com/Bde42lausanne/Bde42lausanne.github.io/blob/main/output-onlinepngtools2.png?raw=true), auto;
+}
+
 .b1{
   content: url(https://cdn.intra.42.fr/users/medium_ldominiq.JPG);
   animation: floatup 10s linear infinite, sideways 5s ease-in-out infinite alternate;
