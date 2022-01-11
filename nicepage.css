@@ -4,39 +4,48 @@
  * Copyright 2014-2021 Froala Labs
  */
 
- .myButton {
-  color: rgb(255, 255, 255); 
-  font-size: 16px; line-height: 16px;
-  padding: 11px;
-  border-radius: 0px;
-  text-decoration: none;
-  font-style: normal;
-  font-variant: normal;
-  text-transform: none;
-  background-image: linear-gradient(to right, rgb(223, 17, 18) 0%, rgb(223, 17, 18) 100%); 
-  display: inline-block;
-}
-.myButton:hover {
-  background: #5e101091;
-}
-.myButton:active {
-  background: #DF1112;
-}
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 10px;
+    background-color: #FFFFFF;
+    padding: 200px 200px;
+  }
 
-.con-tainer {
-  height: 200px;
-  position: relative;
-  border: 3px solid green;
-}
+  .myButton {
+    color: rgb(255, 255, 255); 
+    background-color: #DF1112;
+    border: none;
+    border-radius: 2px;
+    box-shadow: none;
+    font-size: 16px; 
+    line-height: 0px;
+    padding: 25px 45px; 
+    font-family: inherit; 
+    font-weight: normal; 
+    text-decoration: none; 
+    font-style: normal; 
+    font-variant: normal; 
+    letter-spacing: 0.1em; }
 
-.connard{
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-}
+    .myButton:hover {
+      background-color: #000000;
+      color: white;
+    }
+
+  .center-grid {
+    margin: auto;
+    position: absolute;
+  }
+
+  .center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
 
 .fr-clearfix::after {
   clear: both;
