@@ -41,13 +41,13 @@ body {
   transform: scale(.7);
 }
 .b3{
-  content: url(https://cdn.intra.42.fr/users/medium_hrolle.jpg);
+  content: url(https://cdn.intra.42.fr/users/medium_lgenevey.JPG);
   animation: floatup 4s linear infinite, sideways 6s ease-in-out 6s infinite alternate;
   left: 20%;
   transform: scale(1.2);
 }
 .b4{
-  content: url(https://cdn.intra.42.fr/users/medium_gaubert.jpg);
+  content: url(https://cdn.intra.42.fr/users/medium_nchennaf.jpg);
   animation: floatup 6s linear infinite, sideways 5s ease-in-out 3s infinite alternate;
   left: 25%;
   top:90%;
@@ -61,7 +61,7 @@ body {
   transform: scale(1.1);
 }
 .b6{
-  content: url(https://cdn.intra.42.fr/users/medium_vferraro.jpg);
+  content: url(https://cdn.intra.42.fr/users/medium_ldominiq.JPG);
   animation: floatup 7s linear infinite, sideways 4s ease-in-out 3.5s infinite alternate;
   left:40%;
   top:50%;

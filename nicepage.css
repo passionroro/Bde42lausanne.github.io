@@ -21,12 +21,13 @@
     font-size: 16px; 
     line-height: 0px;
     padding: 25px 45px; 
-    font-family: inherit; 
+    font-family: inherit;
     font-weight: normal; 
-    text-decoration: none; 
+    text-decoration: none;
     font-style: normal; 
-    font-variant: normal; 
-    letter-spacing: 0.1em; }
+    font-variant: normal;
+    letter-spacing: 0.1em;
+  }
 
     .myButton:hover {
       background-color: #000000;
