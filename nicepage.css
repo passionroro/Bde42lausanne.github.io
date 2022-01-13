@@ -4,6 +4,11 @@
  * Copyright 2014-2021 Froala Labs
  */
 
+.myFont {
+  font-family: 'Montserrat';
+  font-size: 40px;
+}
+
  .grid-container {
   display: grid;
   grid-template-columns: auto;
@@ -206,6 +211,20 @@
     -moz-animation: down 1.3s infinite;
     -o-animation: down 1.3s infinite;
     animation: down 1.3s infinite;
+  }
+
+#textpac{
+  display: block;
+}
+
+  .pacman:hover::after{
+    background: #ff0707;
+    animation-play-state: paused;
+  }
+
+  .pacman:hover::before{
+    background: #ff0707;
+    animation-play-state: paused;
   }
   
   body .dot {
