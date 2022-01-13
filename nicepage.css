@@ -4,13 +4,20 @@
  * Copyright 2014-2021 Froala Labs
  */
 
-  .grid-container {
-    display: grid;
-    grid-template-columns: auto;
-    grid-gap: 10px;
-    background-color: #FFFFFF;
-    padding: 200px 200px;
-  }
+ .grid-container {
+  display: grid;
+  grid-template-columns: auto;
+  grid-gap: 40px;
+  background-color: #FFFFFF;
+  padding: 40px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px 0;
+  font-size: 30px;
+}
+
 
   .myButton {
     color: rgb(255, 255, 255); 
@@ -34,11 +41,6 @@
       color: white;
     }
 
-  .center-grid {
-    margin: auto;
-    position: absolute;
-  }
-
   .center {
     margin: 0;
     position: absolute;
@@ -46,6 +48,12 @@
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
+  }
+
+  .center-grid {
+    margin:0 auto;
+     display:block;
+       text-align:center;
   }
 
 .fr-clearfix::after {
