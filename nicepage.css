@@ -212,20 +212,6 @@
     -o-animation: down 1.3s infinite;
     animation: down 1.3s infinite;
   }
-
-#textpac{
-  display: block;
-}
-
-  .pacman:hover::after{
-    background: #ff0707;
-    animation-play-state: paused;
-  }
-
-  .pacman:hover::before{
-    background: #ff0707;
-    animation-play-state: paused;
-  }
   
   body .dot {
     position: absolute;
